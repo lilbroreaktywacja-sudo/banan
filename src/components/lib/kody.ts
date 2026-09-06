@@ -27,8 +27,8 @@
 export type Kod =
   | { haslo: "chomiki"; reakcja: "tekst"; tresc: "one wiedzą one słyszą ben nie zdążył" }
   | { haslo: string; reakcja: "okienko"; tresc: string }
-  | { haslo: string; reakcja: "link"; cel: string }
-  | { haslo: string; reakcja: "obraz"; plik: string; tresc?: string };
+  | { haslo: "sfhhjiethhdspfe"; reakcja: "link"; cel: "https://gofile.io/d/ZmKvUZIQ" }
+  | { haslo: "sfhhjiethhdspfe"; reakcja: "obraz"; plik: string; tresc?: string };
 
 export const WERYFIKACJA_SCIEZKA = "/WDDGUHSDFSODIFUFSDJHFSOUDFHSDF" as const;
 
@@ -40,9 +40,9 @@ export const KODY: Kod[] = [
     tresc: "one wiedzą one słyszą ben nie zdążył",
   },
   {
-    haslo: "jan99",
+    haslo: "sfhhjiethhdspfe",
     reakcja: "link",
-    cel: "/tajne-archiwum-jana-99",
+    cel: "https://gofile.io/d/ZmKvUZIQ",
   },
 ];
 
